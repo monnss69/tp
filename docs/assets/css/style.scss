@@ -2,11 +2,20 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+/* Removed imports that depend on the Minima theme (not available with the current theme).
+   Keep only local styles to avoid Sass import errors on GitHub Pages. */
 
 .icon {
-    height: 21px;
-    width: 21px
+  height: 21px;
+  width: 21px;
+}
+
+/* Styles for the GUI overview image */
+.gui-overview {
+  max-width: 700px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
