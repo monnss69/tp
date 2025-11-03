@@ -13,9 +13,17 @@
 /* Styles for the GUI overview image */
 .gui-overview {
   max-width: 700px;
-  max-height: 300px;
+  /* cap the height so the image fits with the header */
+  max-height: 180px;
   width: auto;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* On short viewports, use viewport-relative height so it still fits */
+@media (max-height: 600px) {
+  .gui-overview {
+    max-height: 30vh;
+  }
 }
