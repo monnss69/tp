@@ -34,7 +34,7 @@ Warns you of potential issues to should watch out for.
 
 TheRealDeal Graphical User Interface (GUI) is organised into **five** key components:
 
-<img src="images/GUI-UI.png" alt="GUI Overview" style="max-width:700px; max-height:300px; width:auto; height:auto; display:block; margin: 0 auto;" />
+<img src="images/GUI-UI.png" alt="GUI Overview" class="gui-overview" />
 
 * `Menu Bar`: Located at the top left, this includes options such as `File` and `Help` for managing settings and accessing support.
 * `Command Box`: The main area where users can enter commands to interact with the app.
